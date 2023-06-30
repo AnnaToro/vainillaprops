@@ -8,6 +8,10 @@ function Formulario() {
     const [preferencias, setPreferencias] =
     useState('');
 
+    const handleSexoChange = (e) => {
+      setSexo(e.target.value);
+    };
+
 }
 
 export default App;
