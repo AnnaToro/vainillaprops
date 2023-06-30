@@ -11,6 +11,9 @@ function Formulario() {
     const handleSexoChange = (e) => {
       setSexo(e.target.value);
     };
+    const handleEdadChange = (e) => {
+      setEdad(e.target.value);
+    };
 
 }
 
