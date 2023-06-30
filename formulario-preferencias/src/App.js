@@ -17,6 +17,12 @@ function Formulario() {
     const handlePreferenciasChange = (e) => {
       setPreferencias(e.target.value);
     };
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      console.log('Sexo:', sexo);
+      console.log('Edad:', edad);
+      console.log('Preferencias:', preferencias);
+    };
 
 }
 
