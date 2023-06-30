@@ -5,6 +5,9 @@ function Formulario() {
     useState('');
     const [edad, setEdad] =
     useState('');
+    const [preferencias, setPreferencias] =
+    useState('');
+
 }
 
 export default App;
