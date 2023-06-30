@@ -14,6 +14,9 @@ function Formulario() {
     const handleEdadChange = (e) => {
       setEdad(e.target.value);
     };
+    const handlePreferenciasChange = (e) => {
+      setPreferencias(e.target.value);
+    };
 
 }
 
