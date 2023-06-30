@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
 function Formulario() {
-    return (
-
-    );
+    const [sexo, setSexo] =
+    useState('');
 }
 
 export default App;
