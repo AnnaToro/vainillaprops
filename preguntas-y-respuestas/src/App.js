@@ -36,3 +36,14 @@ export default App;
     "tema": "Género y diversidad",
     "pregunta": "¿Qué es la orientación sexual?"
   },
+},
+{
+  "tema": "Educación sexual",
+  "pregunta": "¿Qué es la educación sexual integral?"
+},
+
+
+
+
+
+
