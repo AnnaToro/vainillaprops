@@ -32,3 +32,7 @@ export default App;
       }
     
 }
+{
+    "tema": "Género y diversidad",
+    "pregunta": "¿Qué es la orientación sexual?"
+  },
