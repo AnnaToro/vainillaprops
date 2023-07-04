@@ -8,5 +8,5 @@ const temasESI = [
     'Cuidado de la salud y el cuerpo',
     'Prevención de violencia',
     'Derechos humanos',
-
+    'Salud emocional',
 ];
