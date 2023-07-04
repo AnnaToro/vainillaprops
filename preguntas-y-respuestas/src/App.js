@@ -41,7 +41,10 @@ export default App;
   "tema": "Educación sexual",
   "pregunta": "¿Qué es la educación sexual integral?"
 },
-
+{
+    "tema": "Educación sexual",
+    "pregunta": "¿Cuáles son los métodos anticonceptivos más comunes?"
+  },
 
 
 
