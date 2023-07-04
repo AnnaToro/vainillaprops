@@ -23,3 +23,12 @@ function App() {
 }
 
 export default App;
+
+{
+    "preguntas": [
+      {
+        "tema": "Género y diversidad",
+        "pregunta": "¿Cuál es el concepto de identidad de género?"
+      }
+    
+}
