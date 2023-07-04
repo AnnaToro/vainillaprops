@@ -6,5 +6,6 @@ const temasESI = [
     'Educación sexual',
     'Cuidados sexuales',
     'Cuidado de la salud y el cuerpo',
+    'Prevención de violencia',
 
 ];
