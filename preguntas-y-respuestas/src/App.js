@@ -45,7 +45,14 @@ export default App;
     "tema": "Educación sexual",
     "pregunta": "¿Cuáles son los métodos anticonceptivos más comunes?"
   },
-
+  {
+    "tema": "Prevención de violencia",
+    "pregunta": "¿Cuáles son los tipos de violencia de género?"
+  },
+  {
+    "tema": "Prevención de violencia",
+    "pregunta": "¿Qué es el consentimiento en una relación?"
+  },
 
 
 
