@@ -10,3 +10,11 @@ const temasESI = [
     'Derechos humanos',
     'Salud emocional',
 ];
+const App = () => {
+        const [temaActual, setTemaActual] = useState('');
+
+        const girarRuleta = () => {
+            const indiceAleatorio = Math.floor(Math.random() * temasESI.length);
+            const temaAleatorio = temasESI[indiceAleatorio];
+            setTemaActual(temaAleatorio);
+        };
