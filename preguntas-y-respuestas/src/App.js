@@ -53,6 +53,34 @@ export default App;
     "tema": "Prevención de violencia",
     "pregunta": "¿Qué es el consentimiento en una relación?"
   },
+  {
+    "tema": "Cuidados sexuales",
+    "pregunta": ""
+  },
+  {
+    "tema": "Cuidados sexuales",
+    "pregunta": ""
+  },
+  {
+    "tema": "Derechos humanos",
+    "pregunta": "¿Cuáles son los derechos humanos fundamentales?"
+  },
+  {
+    "tema": "Derechos humanos",
+    "pregunta": "¿Qué es la discriminación y cómo se combate?"
+  },
+  {
+    "tema": "Salud emocional",
+    "pregunta": "¿Qué es la inteligencia emocional?"
+  },
+  {
+    "tema": "Salud emocional",
+    "pregunta": "¿Cómo se puede gestionar el estrés?"
+  }                                                                                                                                                                                  {
+    "tema": "Cuidados de la salud y el cuerpo",
+    "pregunta": "" }
+]
+}
 
 
 
