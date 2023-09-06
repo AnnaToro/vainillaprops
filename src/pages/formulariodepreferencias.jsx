@@ -46,6 +46,14 @@ function Formulario() {
         <
         textarea value = { preferencias }
         onChange = { handlePreferenciasChange }
-        /> <
-        /label> <
-        br / >
+        /> </label> <br />
+        <
+        button type = "submit" > Enviar < /button> <
+        /form>
+    );
+}
+
+export default Formulario;
+}
+
+export default App;
