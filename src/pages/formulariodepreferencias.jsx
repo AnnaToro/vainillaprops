@@ -20,3 +20,19 @@ function Formulario() {
         console.log('Edad:', edad);
         console.log('Preferencias:', preferencias);
     };
+    return ( <
+        form onSubmit = { handleSubmit } >
+        <
+        label >
+        Sexo:
+        <
+        select value = { sexo }
+        onChange = { handleSexoChange } >
+        <
+        option value = "" > Seleccionar < /option> <
+        option value = "Masculino" > Masculino < /option> <
+        option value = "Femenino" > Femenino < /option> <
+        /select> <
+        /label> <
+        br / >
+        <
