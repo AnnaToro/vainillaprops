@@ -35,4 +35,17 @@ function Formulario() {
         /select> <
         /label> <
         br / >
+        <label >
+        Edad:
+        < input type = "text"
+        value = { edad }
+        onChange = { handleEdadChange }
+        /> </label> <br / >
+        <  label >
+        Preferencias:
         <
+        textarea value = { preferencias }
+        onChange = { handlePreferenciasChange }
+        /> <
+        /label> <
+        br / >
