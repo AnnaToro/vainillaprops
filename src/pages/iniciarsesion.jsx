@@ -33,3 +33,20 @@ render() {
             onChange={this.handleInputChange}
           />
         </div>
+        <div>
+            <label>Contraseña:</label>
+            <input
+              type="password"
+              name="contraseña"
+              value={this.state.contraseña}
+              onChange={this.handleInputChange}
+            />
+          </div>
+          <button type="submit">Iniciar Sesión</button>
+        </form>
+      </div>
+    );
+  }
+}
+
+export default InicioSesion;
