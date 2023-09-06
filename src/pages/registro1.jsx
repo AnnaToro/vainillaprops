@@ -19,3 +19,11 @@ class Registro extends Component {
     
       handleSubmit = (event) => {
         event.preventDefault();
+        const { nombre, apellido, email, contraseña, confirmarContraseña } = this.state;
+        if (contraseña !== confirmarContraseña) {
+            alert('Las contraseñas no coinciden');
+          } else {  }
+        }
+      
+        render() {
+          return (
