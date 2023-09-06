@@ -8,3 +8,12 @@ class InicioSesion extends Component {
       contraseña: '',
     };
   }
+  handleInputChange = (event) => {
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value,
+    });
+  }
+
+  handleSubmit = (event) => {
+    event.preventDefault();
