@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const CLIENT_ID = 'tu-client-id';
+const CLIENT_ID = 'ebbfed28b1672a76fa9d';
 const CLIENT_SECRET = 'tu-client-secret';
 const REDIRECT_URI = 'http://localhost:3000/callback';
 
