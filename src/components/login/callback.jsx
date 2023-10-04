@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const CLIENT_ID = 'ebbfed28b1672a76fa9d';
-const CLIENT_SECRET = 'tu-client-secret';
+const CLIENT_SECRET = 'dfc1cbcbaaa2faf8fd307e3726ed2a96c1186d3b';
 const REDIRECT_URI = 'http://localhost:3000/callback';
 
 function Callback() {
