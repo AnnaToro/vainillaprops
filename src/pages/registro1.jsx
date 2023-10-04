@@ -54,7 +54,7 @@ class Registro extends Component {
                   name="email"
                   value={this.state.email}
                   onChange={this.handleInputChange}
-                />
+                /> 
               </div>
               <div>
                 <label>Contraseña:</label>
