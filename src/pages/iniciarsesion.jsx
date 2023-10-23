@@ -1,52 +1,46 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class InicioSesion extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      usuario: '',
-      contraseña: '',
-    };
-  }
-  handleInputChange = (event) => {
-    const { name, value } = event.target;
-    this.setState({
-      [name]: value,
-    });
+const LoginForm = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
   }
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    const { usuario, contraseña } = this.state;
-}
-render() {
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aquí puedes agregar la lógica para autenticar al usuario
+    console.log(`Username: ${username} - Password: ${password}`);
+    // También puedes redirigir al usuario a otra página después del inicio de sesión
+  }
+
   return (
-    <div>
-      <h2>Iniciar Sesión</h2>
-      <form onSubmit={this.handleSubmit}>
-        <div>
-          <label>Usuario:</label>
-          <input
-            type="text"
-            name="usuario"
-            value={this.state.usuario}
-            onChange={this.handleInputChange}
-          />
-        </div>
-        <div>
-            <label>Contraseña:</label>
-            <input
-              type="password"
-              name="contraseña"
-              value={this.state.contraseña}
-              onChange={this.handleInputChange}
-            />
-          </div>
-          <button type="submit">Iniciar Sesión</button>
-        </form>
-      </div>
-    );
-  }
+    <div className="login-form">
+      <img src="/logo.png" alt="Logo" />
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Nombre de usuario o correo"
+          value={username}
+          onChange={handleUsernameChange}
+          required
+        />
+        <input
+          type="password"
+          placeholder="Contraseña"
+          value={password}
+          onChange={handlePasswordChange}
+          required
+        />
+        <button type="submit">Iniciar</button>
+      </form>
+    </div>
+  );
 }
 
-export default InicioSesion;
+export default LoginForm;
