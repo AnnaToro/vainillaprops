@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './loginForm.css';
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
@@ -14,9 +15,19 @@ const LoginForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes agregar la lógica para autenticar al usuario
+  
+    if (username === 'usuario' && password === 'contraseña') {
+      setIsLoggedIn(true); // Si las credenciales son correctas, estableces isLoggedIn a true
+    } else {
+      alert('Credenciales incorrectas'); // Si las credenciales son incorrectas, muestras un mensaje de error
+    }
+  }
+
+  if (isLoggedIn) {
+    return <div>¡Has iniciado sesión correctamente!</div>; // Si el usuario ha iniciado sesión, muestras un mensaje de éxito
+  }
     console.log(`Username: ${username} - Password: ${password}`);
-    // También puedes redirigir al usuario a otra página después del inicio de sesión
+
   }
 
   return (
