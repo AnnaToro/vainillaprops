@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import firebase from '../firebaseConfig';
+import './loginForm.css';
 
 const RegisterForm = () => {
   const [email, setEmail] = useState('');
