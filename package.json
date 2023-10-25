@@ -12,10 +12,14 @@
     "expo": "~48.0.15",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "^0.71.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "@babel/core": "^7.20.2",
+    "babel-loader": "8.3.0"
+  }
 }

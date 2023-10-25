@@ -11,151 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3224b11c-85d1-4f4d-a467-4eae84ec4462" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/botones/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario-preferencias/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-app/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/LoginForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login-form/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagina-principal/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pantalla-principal/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntas-y-respuestas/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleta-esi/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/oriih/Downloads/seeker-master/seeker-master/template/telegram/css/css",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oriih/Downloads/seeker-master/seeker-master/template/telegram/css/css&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Juego_ESI.app.main" />
