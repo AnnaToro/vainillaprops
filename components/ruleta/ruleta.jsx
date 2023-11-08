@@ -11,6 +11,7 @@ const Navbar = () => {
 
 export default Navbar;
 import React, { useState } from 'react';
+import Navbar from './Navbar';
 
 const Roulette = () => {
   const options = [
