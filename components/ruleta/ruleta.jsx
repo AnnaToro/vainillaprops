@@ -1,12 +1,24 @@
+// Navbar.js
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      { enlace }
+    </nav>
+  );
+};
+
+export default Navbar;
 import React, { useState } from 'react';
 
 const Roulette = () => {
   const options = [
-    { name: 'Rosado Claro', value: 'rosado-claro' },
-    { name: 'Rosado Medio', value: 'rosado-medio' },
-    { name: 'Rosado Oscuro', value: 'rosado-oscuro' },
-    { name: 'Rosado Pastel', value: 'rosado-pastel' },
-    { name: 'Rosa Chicle', value: 'rosa-chicle' },
+    { name: 'Rosado Claro', value: 'rosado-claro', color: '#FFC0CB' },
+    { name: 'Rosado Medio', value: 'rosado-medio', color: '#FF69B4' },
+    { name: 'Rosado Oscuro', value: 'rosado-oscuro', color: '#FF1493' },
+    { name: 'Rosado Pastel', value: 'rosado-pastel', color: '#FFD1DC' },
+    { name: 'Rosa Chicle', value: 'rosa-chicle', color: '#FF00FF' },
   ];
 
   const [selectedOption, setSelectedOption] = useState(null);
