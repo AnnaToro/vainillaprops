@@ -1,0 +1,60 @@
+/* Chat.css */
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #FFD1DC; /* Color rosado pastel de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco para los mensajes */
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #FFD1DC; /* Color rosado pastel para los mensajes del usuario */
+    align-self: flex-end;
+  }
+  
+  .ai-message {
+    background-color: #FFD1DC; /* Color rosado pastel para los mensajes de la IA */
+    align-self: flex-start;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #FF69B4; /* Color rosado medio para el botón */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
