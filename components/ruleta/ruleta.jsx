@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 const Roulette = () => {
   const options = [
-    'Rosado Claro',
-    'Rosado Medio',
-    'Rosado Oscuro',
-    'Rosado Pastel',
-    'Rosa Chicle',
+    { name: 'Rosado Claro', value: 'rosado-claro' },
+    { name: 'Rosado Medio', value: 'rosado-medio' },
+    { name: 'Rosado Oscuro', value: 'rosado-oscuro' },
+    { name: 'Rosado Pastel', value: 'rosado-pastel' },
+    { name: 'Rosa Chicle', value: 'rosa-chicle' },
   ];
 
   const [selectedOption, setSelectedOption] = useState(null);
