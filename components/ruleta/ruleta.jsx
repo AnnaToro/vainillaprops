@@ -1,15 +1,3 @@
-// Navbar.js
-import React from 'react';
-
-const Navbar = () => {
-  return (
-    <nav className="navbar">
-      { enlace }
-    </nav>
-  );
-};
-
-export default Navbar;
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 
@@ -38,7 +26,8 @@ const Roulette = () => {
   };
   return (
     <div>
-      <h1>Ruleta de Preguntas</h1>
+    
+      <h1>Ruleta de Pregunta+s</h1>
       <button onClick={spinRoulette}>Girar Ruleta</button>
       {selectedOption && <p>Opción seleccionada: {selectedOption}</p>}
       <p style={{ color: selectedOption.color }}>
