@@ -16,6 +16,11 @@ const Chat = () => {
     }
   };
 
+  const Message = ({ message }) => {
+    const messageClass = message.user === 'user' ? 'user-message' : 'ai-message';
+    return <div className={`message ${messageClass}`}>{message.text}</div>;
+  };
+  
   return (
     <div className="chat-container">
       <div className="chat-messages">
@@ -37,14 +42,3 @@ const Chat = () => {
 };
 
 export default Chat;
-
-// Message.js
-import React from 'react';
-import './Chat.css';
-
-const Message = ({ message }) => {
-  const messageClass = message.user === 'user' ? 'user-message' : 'ai-message';
-  return <div className={`message ${messageClass}`}>{message.text}</div>;
-};
-
-export default Message;
