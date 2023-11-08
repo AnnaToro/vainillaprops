@@ -41,7 +41,12 @@ const Roulette = () => {
       <h1>Ruleta de Preguntas</h1>
       <button onClick={spinRoulette}>Girar Ruleta</button>
       {selectedOption && <p>Opción seleccionada: {selectedOption}</p>}
+      <p style={{ color: selectedOption.color }}>
+              {selectedOption.name}
+            </p>
+            <Link to={`/${selectedOption.value}`}>Ir a la página</Link>
     </div>
+    
   );
 };
 
