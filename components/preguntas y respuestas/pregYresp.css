@@ -1,0 +1,28 @@
+.container {
+    font-family: Arial, sans-serif; /* Fuente Arial */
+    background-color: #FFD1DC; /* Color rosado pastel de fondo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #FF69B4; /* Color rosado medio para el título */
+  }
+  
+  .question {
+    background-color: #fff; /* Fondo blanco para cada pregunta y respuesta */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    color: #FF69B4; /* Color rosado medio para el título de la pregunta */
+  }
+  
+  p {
+    color: #FF1493; /* Color rosado oscuro para el texto de la pregunta y respuesta */
+  }
