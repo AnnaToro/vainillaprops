@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .contenedor-principal {
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: #ff66b2;
+    padding: 10px;
+  }
+  
+  .contenedor-escalera {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .nivel {
+    width: 100px;
+    
+   
+  height: 20px;
+    margin: 5px;
+    background-color: #ffccff;
+  }
+  
+  .nivel-1 {
+    background-color: #ff9999;
+  }
+  
+  .nivel-2 {
+    background-color: #ffb3b3;
+  }
