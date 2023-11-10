@@ -44,3 +44,17 @@ const useStyles = makeStyles((theme) => ({
           reader.readAsDataURL(input.files[0]);
         }
      };
+     return (
+        <div className={classes.container}>
+          <img className={classes.image} src={profileImage} alt="profile" />
+          <Box className={classes.text}>Profile picture</Box>
+          <label htmlFor="imageUpload">
+            <Button className={classes.button} variant="contained" color="primary" component="span">
+              Edit profile picture
+            </Button>
+          </label>
+          <input className={classes.imageUpload} type="file" id="imageUpload" accept="image/*" onChange={handleImageUpload} />
+        </div>
+     );
+    }
+    
