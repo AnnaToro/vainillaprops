@@ -28,4 +28,7 @@ const useStyles = makeStyles((theme) => ({
        display: 'none',
     },
    }));
-   
+   export default function App() {
+    const classes = useStyles();
+    const [profileImage, setProfileImage] = useState('https://assets.imgix.net/dating-app/h1/image-80.png?auto=format,compress');
+      
