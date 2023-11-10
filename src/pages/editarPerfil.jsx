@@ -31,4 +31,16 @@ const useStyles = makeStyles((theme) => ({
    export default function App() {
     const classes = useStyles();
     const [profileImage, setProfileImage] = useState('https://assets.imgix.net/dating-app/h1/image-80.png?auto=format,compress');
-      
+    const handleImageUpload = (event) => {
+        const input = event.target;
+    
+        if (input.files && input.files[0]) {
+          const reader = new FileReader();
+    
+          reader.onload = (e) => {
+            setProfileImage(e.target.result);
+          };
+    
+          reader.readAsDataURL(input.files[0]);
+        }
+     };
