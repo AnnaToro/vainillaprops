@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+// importanado los módulos React y useState desde la biblioteca 'react'. 
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
+//importan los componentes makeStyles, Button y Box de la biblioteca @material-ui/core. makeStyles se utiliza para definir estilos personalizados.
 const useStyles = makeStyles((theme) => ({
     container: {
        display: 'flex',
