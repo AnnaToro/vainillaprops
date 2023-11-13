@@ -1,10 +1,10 @@
 function Formulario() {
-    const [sexo, setSexo] =
-    useState('');
-    const [edad, setEdad] =
-    useState('');
-    const [preferencias, setPreferencias] =
-    useState('');
+      // Definir los estados iniciales utilizando el hook useState
+    const [sexo, setSexo] =  useState(''); // Estado para el valor seleccionado en el campo de sexo
+    const [edad, setEdad] = useState(''); // Estado para el valor ingresado en el campo de edad
+    const [preferencias, setPreferencias] = useState(''); // Estado para el valor ingresado en el campo de preferencias
+
+    // Funciones para manejar los cambios en los campos de formulario
     const handleSexoChange = (e) => {
         setSexo(e.target.value);
     };
@@ -14,12 +14,14 @@ function Formulario() {
     const handlePreferenciasChange = (e) => {
         setPreferencias(e.target.value);
     };
+     // Función para manejar el envío del formulario
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Sexo:', sexo);
         console.log('Edad:', edad);
         console.log('Preferencias:', preferencias);
     };
+     // Renderizar el formulario
     return ( <
         form onSubmit = { handleSubmit } >
         <
