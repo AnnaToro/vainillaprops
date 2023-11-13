@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import firebase from '../firebaseConfig';
+import firebase from '../firebaseConfig'; // Importa el archivo de configuración de Firebase
 import './loginForm.css';
 
 const RegisterForm = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState(''); // Estado para almacenar el valor del campo de correo electrónico
+  const [password, setPassword] = useState(''); // Estado para almacenar el valor del campo de contraseña
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
