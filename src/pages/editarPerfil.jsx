@@ -30,9 +30,11 @@ const useStyles = makeStyles((theme) => ({
        display: 'none',
     },
    }));
+   // Esta función acepta un parámetro, theme, que se puede usar para acceder al tema actual de Material-UI si es necesario.
    export default function App() {
     const classes = useStyles();
     const [profileImage, setProfileImage] = useState('https://assets.imgix.net/dating-app/h1/image-80.png?auto=format,compress');
+   //Esto nos permitirá utilizar los estilos definidos en useStyles en el resto del componente.
     const handleImageUpload = (event) => {
         const input = event.target;
     
@@ -46,6 +48,7 @@ const useStyles = makeStyles((theme) => ({
           reader.readAsDataURL(input.files[0]);
         }
      };
+      //Se ejecutará cuando se seleccione una imagen de perfil desde el campo de entrada de archivo.
      return (
         <div className={classes.container}>
           <img className={classes.image} src={profileImage} alt="profile" />
@@ -59,4 +62,4 @@ const useStyles = makeStyles((theme) => ({
         </div>
      );
     }
-    
+    //se utiliza para permitir a los usuarios seleccionar una nueva imagen de perfil.
