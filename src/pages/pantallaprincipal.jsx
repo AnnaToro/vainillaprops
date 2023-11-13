@@ -8,20 +8,21 @@ const HomeScreen = () => {
     </View>
      );
     };
+    // Estilos del componente
     const styles = StyleSheet.create({
       container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        flex: 1, // Ocupa todo el espacio disponible
+        justifyContent: 'center',  // Centra verticalmente el contenido
+        alignItems: 'center', // Centra horizontalmente el contenido
       },
       title: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        marginBottom: 10,
+        fontSize: 24, // Tamaño de fuente del título
+        fontWeight: 'bold', // Estilo de fuente en negrita
+        marginBottom: 10, // Espacio inferior de 10 unidades
       },
       subtitle: {
-        fontSize: 18,
-        color: 'gray',
+        fontSize: 18, // Tamaño de fuente del subtítulo
+        color: 'gray', // Color gris del texto
       },
     });
 
