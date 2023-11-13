@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './iniciosesion.css';
 
 const LoginForm = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState(''); // Estado para almacenar el valor del campo de nombre de usuario
+  const [password, setPassword] = useState('');  // Estado para almacenar el valor del campo de contraseña
 
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
