@@ -1,3 +1,4 @@
+// Array de temas de ESI
 const temasESI = [
     'Género y diversidad',
     'Educación sexual',
@@ -8,11 +9,16 @@ const temasESI = [
     'Salud emocional',
 ];
 const App = () => {
+    // Estado para almacenar el tema actual seleccionado
     const [temaActual, setTemaActual] = useState('');
 
+      // Función para girar la ruleta y seleccionar un tema aleatorio
     const girarRuleta = () => {
+            // Genera un índice aleatorio dentro del rango de temasESI
         const indiceAleatorio = Math.floor(Math.random() * temasESI.length);
+         // Obtiene el tema aleatorio utilizando el índice
         const temaAleatorio = temasESI[indiceAleatorio];
+            // Actualiza el estado del tema actual
         setTemaActual(temaAleatorio);
     };
     return ( <
@@ -24,6 +30,7 @@ const App = () => {
         onClick = { girarRuleta } >
         Girar <
         /Button> {
+            {/* Si hay un tema actual seleccionado, muestra la información */}
             temaActual && ( <
                 div className = "mt-3" >
                 <
